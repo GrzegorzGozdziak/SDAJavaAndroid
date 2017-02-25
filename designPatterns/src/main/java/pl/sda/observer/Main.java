@@ -9,7 +9,7 @@ public class Main {
         Observer observer = new Observer();
         SortFacade sortFacade = new SortFacade(observer);
 
-        int[] input = new int[] {4823, 432, 6, 1, 867, 956, 44, -1};
+        int[] input = new int[]{4823, 432, 6, 1, 867, 956, 44, -1};
 
         int[] result = sortFacade.sortUsingCountSort(input);
         System.out.println(Arrays.toString(result));

@@ -14,7 +14,7 @@ public class Main {
 
         Sort sort = factory.produce(SortTypeEnum.BUBBLE);
 
-        int[] sortedArray = sort.sort(new int[] {432,234234,43,2323,4321,234,233});
+        int[] sortedArray = sort.sort(new int[]{432, 234234, 43, 2323, 4321, 234, 233});
         System.out.println(Arrays.toString(sortedArray));
     }
 }

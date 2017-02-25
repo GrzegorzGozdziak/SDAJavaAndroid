@@ -9,7 +9,8 @@ public class SortFacade {
 
     private Observer observer = null;
 
-    public SortFacade() {}
+    public SortFacade() {
+    }
 
     public SortFacade(Observer observer) {
         this.observer = observer;

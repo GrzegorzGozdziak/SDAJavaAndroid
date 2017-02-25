@@ -9,7 +9,6 @@ public class MovieBulider {
     }
 
 
-
     public MovieBulider withTitle(String title) {
         movie.setTitle(title);
         return this;
@@ -24,7 +23,6 @@ public class MovieBulider {
         movie.setDirector(director);
         return this;
     }
-
 
 
     public MovieBulider withGenres(String genres) {

@@ -14,7 +14,8 @@ public class SingletonSortFactory extends SortFactory {
         return instance;
     }
 
-    private SingletonSortFactory() {}
+    private SingletonSortFactory() {
+    }
 
     public static Sort produce(SortTypeEnum type) {
 
