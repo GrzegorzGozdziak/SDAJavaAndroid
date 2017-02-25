@@ -1,0 +1,7 @@
+.idea/
+target/
+
+/designPatterns/.idea/*
+/designPatterns/designPatterns.iml
+
+/designPatterns/target/*
