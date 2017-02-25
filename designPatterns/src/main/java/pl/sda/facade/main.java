@@ -5,7 +5,7 @@ import pl.sda.sort.impl.InsertSort;
 
 import java.util.Arrays;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
 
