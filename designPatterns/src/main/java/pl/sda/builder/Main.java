@@ -22,5 +22,13 @@ public class Main {
                 .build();
 
         System.out.println(person.toString());
+
+        MovieBulider movieBulider = new MovieBulider();
+        Movie movie = movieBulider.withTitle("PSY")
+                .withDirector("Steven Spielberg")
+                .withProductionYear(1982)
+                .withGenres("Adventures movie")
+                .build();
+        System.out.println(movie.toString());
     }
 }
