@@ -22,8 +22,8 @@ public class builderTest {
                 .withPesel("986754322")
                 .withPersonAddress(address)
                 .build();
-
         System.out.println(person.toString());
+
         System.out.println();
 
         MovieBulider movieBulider = new MovieBulider();
